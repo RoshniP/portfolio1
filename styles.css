@@ -401,13 +401,14 @@
     align-content: space-around;
 }
 footer{
+    align-items: center;
     margin-top: 350px;
     padding-left: 110px;
     padding-top: 50px;
     padding-bottom: 50px;
-    align-items: center;
     text-align: center;
     background-color:#e05079;
+    width: 100%;
 }
 
 /* responsive media query */
@@ -480,7 +481,13 @@ footer{
                 font-size:32px;
             }
         }
+        @media (min-width:400px){
+            .footer{
+                align-items: center;
+                width: 100%;
+            }
 
+        }
 
     
     
